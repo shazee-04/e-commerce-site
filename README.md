@@ -1,9 +1,7 @@
-<div align="center">
-
-# E Commerce Store (Frontend)
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-27AE60?style=for-the-badge&logo=google-chrome&logoColor=white)](https://shazee-04.github.io/e-commerce-site)
-
+<div style="text-align: center;">
+  <a href="https://shazee-04.github.io/e-commerce-site/">
+    <img src="https://github.com/user-attachments/assets/24d2fbb3-a247-4994-9e8d-5227898f4180" alt="Website Preview" style="width: 100%;">
+  </a>
 </div>
 
 ### Overview
@@ -17,39 +15,35 @@
 - Admin panel UI for products/orders/users (UI only)
 - Smooth scrolling and small UI animations
 
-<div style="text-align: center;">
-  <a href="https://shazee-04.github.io/e-commerce-site/">
-    <img src="https://github.com/user-attachments/assets/24d2fbb3-a247-4994-9e8d-5227898f4180" alt="Website Preview" style="width: 100%;">
-  </a>
-</div>
+##
 
-<br>
-
-## Technologies
+### Technologies
 - HTML5, CSS3, Vanilla JavaScript
 - Bootstrap (CSS + JS bundle)
 
-## Requirements
+### Requirements
 - A modern web browser
 - Optional: Python 3 or Node.js to run a simple local HTTP server
 
-## Installation
+##
+
+### Installation
 ```powershell
 git clone https://github.com/shazee-04/e-commerce-site.git
 cd e-commerce-site
 ```
 
-## Usage
+### Usage
 - Quick open: double‑click `index.html` to open in your browser.
 - Recommended (local server):
 
-## Configuration
+### Configuration
 - No environment variables are required.
 - This is a static site; cart/checkout/admin are UI‑only. To make them functional, integrate a backend/API.
 
-<br>
+##
 
-## Repository Structure
+### Repository Structure
 ```
 e-commerce-site/
 ├─ index.html                  # Landing/home page
@@ -95,13 +89,15 @@ e-commerce-site/
 			└─ static.yml            # GitHub Actions for Pages/static deploy
 ```
 
-## Contributing
+### Contributing
 - Maintainer: Shazee Sandaruwan — https://github.com/shazee-04
 - Please see `CONTRIBUTING.md` for the quick workflow (issue → branch → PR). Small, focused changes are easiest to review.
 
-## Documentation
+### Documentation
 - This is a static, self‑contained site. For customization, inspect `assets/css/*.css` and `assets/js/*.js` and mirror the existing patterns.
 
-## Notes & limitations
+##
+
+### Notes & limitations
 - Frontend‑only: cart, checkout, and admin are non‑persistent without a backend.
 - Consider adding a real API, auth, and persistence if you plan to deploy beyond a demo.
